@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production Build
+dist/
+client/dist/
+
+# Environment Variables
+.env
+.env.production
+*.env
+client/.env
+client/*.env
+server/.env
+server/*.env
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# NPM / Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm/
+
+# Temp cache / uploads
+server/uploads/*
+!server/uploads/.gitkeep
